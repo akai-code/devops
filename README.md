@@ -1,6 +1,6 @@
 # Table of contents 
 
-- [Table of contents](#table-of-contents)
+
 - [1 - Introduction à la conception d'une application cloud native](#1---introduction-a-la-conception-d-une-application-cloud-native)
   - [1.1 - Présentation des microservices et leur rôle dans une application cloud native](#11---presentation-des-microservices-et-leur-role-dans-une-application-cloud-native)
   - [1.2 - Objectifs de la mise en place de l'application](#12---objectifs-de-la-mise-en-place-de-l-application)
