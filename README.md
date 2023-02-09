@@ -29,3 +29,26 @@
   - [7.2 - Discussion sur les avantages et les limites de cette approche](#72---discussion-sur-les-avantages-et-les-limites-de-cette-approche)
   - [7.3 - Directions futures pour le développement de l'application](#73---directions-futures-pour-le-developpement-de-l-application)
 
+  <br/>
+
+# 1 - Introduction à la conception d'une application cloud native
+
+## 1.1 - Présentation des microservices et leur rôle dans une application cloud native
+
+Les microservices sont une architecture de développement logiciel qui permet de décomposer une application en petits modules indépendants qui peuvent être développés, testés et déployés de manière indépendante. Ce paradigme de développement est de plus en plus populaire pour les applications cloud native en raison de sa flexibilité et de sa capacité à gérer la complexité croissante des applications modernes.
+
+Les microservices sont particulièrement importants pour les applications cloud native car ils permettent d'adopter une approche DevOps pour le développement, le test et le déploiement. Les équipes de développement peuvent travailler sur le développement d'un microservice indépendant sans perturber les autres microservices, ce qui permet une amélioration rapide de l'application. De plus, les microservices peuvent être déployés de manière dynamique et mise à l'échelle en fonction des besoins, ce qui permet d'optimiser les ressources et les coûts.
+
+En utilisant les microservices, les équipes peuvent également utiliser différents outils et technologies pour chaque microservice en fonction de leurs besoins spécifiques, ce qui les aide à maximiser leur efficacité et leur qualité. Enfin, les microservices peuvent être facilement maintenus et mis à jour sans impacter l'ensemble de l'application, ce qui garantit la stabilité et la disponibilité de l'application à long terme.
+
+## 1.2 - Objectifs de la mise en place de l'application cloud native
+
+Les objectifs de la mise en place de l'application sont les suivants :
+
+  - Extraire les données de différentes sources de manière efficace et en temps réel.
+  - Stocker les données de manière sécurisée et scalable.
+  - Transformer les données en un format utilisable pour les analyses.
+  - Visualiser les données de manière claire et intuitive pour permettre une meilleure compréhension.
+  - Automatiser les processus de collecte, de transformation et de visualisation des données pour une utilisation efficace.
+  - Utiliser les principes DevOps pour améliorer la rapidité et la qualité du développement, du déploiement et de la maintenance de l'application.
+  - Tirer pleinement parti des avantages offerts par le cloud pour garantir une disponibilité - élevée, une évolutivité et une rentabilité à long terme.
