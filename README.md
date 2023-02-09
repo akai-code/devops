@@ -52,3 +52,24 @@ Les objectifs de la mise en place de l'application sont les suivants :
   - Automatiser les processus de collecte, de transformation et de visualisation des données pour une utilisation efficace.
   - Utiliser les principes DevOps pour améliorer la rapidité et la qualité du développement, du déploiement et de la maintenance de l'application.
   - Tirer pleinement parti des avantages offerts par le cloud pour garantir une disponibilité - élevée, une évolutivité et une rentabilité à long terme.
+
+
+# 2 - Planification de des microservices
+
+## 2.1 - Analyse de la fonctionnalité requise pour chaque microservice
+
+Dans cette section, nous allons examiner les fonctionnalités requises pour chaque microservice de notre application de data engineering. Nous utiliserons une approche basée sur les microservices pour décomposer notre application en différents services indépendants qui peuvent être développés, déployés et exécutés de manière autonome.
+
+``` Extraction des données ``` Ce microservice extrait les données de différentes sources et les stocke dans un format standardisé pour un traitement ultérieur.
+
+``` Stockage des données ``` Ce microservice gère le stockage des données dans un stockage distribué, tel que Apache Cassandra ou Amazon S3, pour une accessibilité fiable et une scalabilité horizontale.
+
+``` Transformation des données ``` Ce microservice se charge de transformer les données extraites en un format standard pour une analyse et une visualisation plus faciles.
+
+``` Analyse des données ``` CCe microservice se charge de l'analyse des données, telles que les agrégations, les filtrages et les analyses statistiques.
+
+``` Visualisation des données ``` Ce microservice se charge de générer des graphiques et des tableaux pour visualiser les données analysées.
+
+
+
+
