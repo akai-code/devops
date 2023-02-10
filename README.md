@@ -53,6 +53,7 @@
   <br/>
 
 # 1 - Introduction à la conception d'une application cloud native
+<a id="1---introduction-a-la-conception-d-une-application-cloud-native"></a>
 
 ## 1.1 - Présentation des microservices et leur rôle dans une application cloud native
 <a id="11---presentation-des-microservices-et-leur-role-dans-une-application-cloud-native"></a>
@@ -64,6 +65,7 @@ Les microservices sont particulièrement importants pour les applications cloud 
 En utilisant les microservices, les équipes peuvent également utiliser différents outils et technologies pour chaque microservice en fonction de leurs besoins spécifiques, ce qui les aide à maximiser leur efficacité et leur qualité. Enfin, les microservices peuvent être facilement maintenus et mis à jour sans impacter l'ensemble de l'application, ce qui garantit la stabilité et la disponibilité de l'application à long terme.
 
 ## 1.2 - Objectifs de la mise en place de l'application
+<a id="12---objectifs-de-la-mise-en-place-de-l-application"></a>
 
 Les objectifs de la mise en place de l'application sont les suivants :
 
@@ -77,8 +79,10 @@ Les objectifs de la mise en place de l'application sont les suivants :
 
 
 # 2 - Planification des microservices
+<a id="2---planification-des-microservices"></a>
 
 ## 2.1 - Analyse de la fonctionnalité requise pour chaque microservice
+<a id="21---analyse-de-la-fonctionnalite-requise-pour-chaque-microservice"></a>
 
 Dans cette section, nous allons examiner les fonctionnalités requises pour chaque microservice de notre application de data engineering. Nous utiliserons une approche basée sur les microservices pour décomposer notre application en différents services indépendants qui peuvent être développés, déployés et exécutés de manière autonome.
 
@@ -93,6 +97,7 @@ Dans cette section, nous allons examiner les fonctionnalités requises pour chaq
 ``` Visualisation des données ``` Ce microservice se charge de générer des graphiques et des tableaux pour visualiser les données analysées.
 
 ## 2.2 - Détermination des dépendances entre les microservices
+<a id="22---determination-des-dependances-entre-les-microservices"></a>
 
 Dans cette section, nous allons déterminer les dépendances entre les différents microservices de notre application. Cela nous permettra de comprendre comment les microservices interagissent les uns avec les autres et comment les modifications apportées à l'un d'entre eux peuvent affecter le fonctionnement de l'application dans son ensemble.
 
@@ -101,6 +106,7 @@ Pour ce faire, nous utiliserons des diagrammes de flux de travail pour représen
 Cette analyse des dépendances nous permettra de mieux comprendre comment les microservices interagissent les uns avec les autres et comment ils peuvent être modifiés ou mis à jour sans affecter le fonctionnement de l'application dans son ensemble. Elle nous aidera également à déterminer les besoins en matière de test et de validation pour chaque microservice, ce qui est crucial pour assurer la qualité et la fiabilité de l'application dans le temps.
 
 ### 2.2.1 - Diagramme de flux de travail pour l'extraction des données
+<a id="221---diagramme-de-flux-de-travail-pour-lextraction-des-donnees"></a>
 
 Le diagramme de flux de travail suivant représente le flux de données pour l'extraction des données. Il montre les différentes étapes de l'extraction des données et les différents microservices qui interagissent avec les données.
 
@@ -109,6 +115,7 @@ Le diagramme de flux de travail suivant représente le flux de données pour l'e
 image.png1920×1080 201 KB
 
 ### 2.2.2 - Diagramme de flux de travail pour le stockage des données
+<a id="222---diagramme-de-flux-de-travail-pour-le-stockage-des-donnees"></a>
 
 Le diagramme de flux de travail suivant représente le flux de données pour le stockage des données. Il montre les différentes étapes de stockage des données et les différents microservices qui interagissent avec les données.
 
@@ -117,6 +124,7 @@ Le diagramme de flux de travail suivant représente le flux de données pour le 
 image.png1920×1080 201 KB
 
 ### 2.2.3 - Diagramme de flux de travail pour la transformation des données
+<a id="223---diagramme-de-flux-de-travail-pour-la-transformation-des-donnees"></a>
 
 Le diagramme de flux de travail suivant représente le flux de données pour la transformation des données. Il montre les différentes étapes de transformation des données et les différents microservices qui interagissent avec les données.
 
@@ -125,6 +133,7 @@ Le diagramme de flux de travail suivant représente le flux de données pour la 
 image.png1920×1080 201 KB
 
 ### 2.2.4 - Diagramme de flux de travail pour l'analyse des données
+<a id="224---diagramme-de-flux-de-travail-pour-lanalyse-des-donnees"></a>
 
 Le diagramme de flux de travail suivant représente le flux de données pour l'analyse des données. Il montre les différentes étapes d'analyse des données et les différents microservices qui interagissent avec les données.
 
@@ -133,6 +142,7 @@ Le diagramme de flux de travail suivant représente le flux de données pour l'a
 image.png1920×1080 201 KB
 
 ### 2.2.5 - Diagramme de flux de travail pour la visualisation des données
+<a id="225---diagramme-de-flux-de-travail-pour-la-visualisation-des-donnees"></a>
 
 Le diagramme de flux de travail suivant représente le flux de données pour la visualisation des données. Il montre les différentes étapes de visualisation des données et les différents microservices qui interagissent avec les données.
 
@@ -142,92 +152,129 @@ image.png1920×1080 201 KB
 
 
 # 3 - Développement de des microservices
+<a id="3---developpement-de-des-microservices"></a>
 
 ## 3.1 - Développement du microservice d'extraction des données
+<a id="31---developpement-du-microservice-dextraction-des-donnees"></a>
 
 Dans cette section, nous allons développer le microservice d'extraction des données. Ce microservice se charge de l'extraction des données de différentes sources et de leur stockage dans un format standardisé pour un traitement ultérieur.
 
 ### 3.1.1 - Définition des exigences
+<a id="311---definition-des-exigences"></a>
 
 ### 3.1.2 - Définition des technologies
+<a id="312---definition-des-technologies"></a>
 
 ### 3.1.3 - Développement du microservice
+<a id="313---developpement-du-microservice"></a>
 
 ## 3.2 - Développement du microservice de stockage des données
+<a id="32---developpement-du-microservice-de-stockage-des-donnees"></a>
 
 Dans cette section, nous allons développer le microservice de stockage des données. Ce microservice se charge du stockage des données dans un stockage distribué, tel qu'Apache Cassandra ou Amazon S3, pour une accessibilité fiable et une scalabilité horizontale.
 
 ### 3.2.1 - Définition des exigences
+<a id="321---definition-des-exigences"></a>
 
 ### 3.2.2 - Définition des technologies
+<a id="322---definition-des-technologies"></a>
 
 ### 3.2.3 - Développement du microservice
+<a id="323---developpement-du-microservice"></a>
 
 ## 3.3 - Développement du microservice de transformation des données
+<a id="33---developpement-du-microservice-de-transformation-des-donnees"></a>
 
 Dans cette section, nous allons développer le microservice de transformation des données. Ce microservice se charge de transformer les données extraites en un format standard pour une analyse et une visualisation plus faciles.
 
 ### 3.3.1 - Définition des exigences
+<a id="331---definition-des-exigences"></a>
 
 ### 3.3.2 - Définition des technologies
+<a id="332---definition-des-technologies"></a>
 
 ### 3.3.3 - Développement du microservice
+<a id="333---definition-du-microservice"></a>
 
 ## 3.4 - Développement du microservice d'analyse des données
+<a id="34---developpement-du-microservice-danalyse-des-donnees"></a>
 
 Dans cette section, nous allons développer le microservice d'analyse des données. Ce microservice se charge d'analyser les données extraites et transformées pour en extraire des informations utiles.
 
 ### 3.4.1 - Définition des exigences
+<a id="341---definition-des-exigences"></a>
 
 ### 3.4.2 - Définition des technologies
+<a id="342---definition-des-technologies"></a>
 
 ### 3.4.3 - Développement du microservice
+<a id="343---developpement-du-microservice"></a>
 
 ## 3.5 - Développement du microservice de visualisation des données
+<a id="35---developpement-du-microservice-de-visualisation-des-donnees"></a>
 
 Dans cette section, nous allons développer le microservice de visualisation des données. Ce microservice se charge de visualiser les données extraites, transformées et analysées pour en extraire des informations utiles.
 
 ### 3.5.1 - Définition des exigences
+<a id="351---definition-des-exigences"></a>
 
 ### 3.5.2 - Définition des technologies
+<a id="352---definition-des-technologies"></a>
 
 ### 3.5.3 - Développement du microservice
+<a id="353---developpement-du-microservice"></a>
 
 
 # 4 - Orchestration avec Kubernetes
+<a id="4---orchestration-avec-kubernetes"></a>
 
 ## 4.1 - Présentation de Kubernetes et ses fonctionnalités
+<a id="41---presentation-de-kubernetes-et-ses-fonctionnalites"></a>
 
 ## 4.2 - Configuration des objets Kubernetes pour gérer les microservices
+<a id="42---configuration-des-objets-Kubernetes-pour-gerer-les-microservices"></a>
 
 ## 4.3 - Mise en place de la mise à l'échelle et de la fiabilité en utilisant les fonctionnalités de Kubernetes
+<a id="43---mise-en-place-de-la-mise-a-lechelle-et-de-la-fiabilite-en-utilisant-les-fonctionnalites-de-kubernetes"></a>
 
 
 # 5 - Surveillance et tests
+<a id="5---surveillance-et-tests"></a>
 
 ## 5.1 - Mise en place de l'outil de surveillance pour surveiller les microservices
+<a id="51---mise-en-place-de-loutil-de-surveillance-pour-surveiller-les-microservices"></a>
 
 ## 5.2 - Écriture de tests pour vérifier la qualité et la disponibilité des microservices
+<a id="52---ecriture-de-tests-pour-verifier-la-qualite-et-la-disponibilite-des-microservices"></a>
 
 ## 5.3 - Configuration de l'outil de test pour s'exécuter automatiquement en cas de modification du code
+<a id="53---configuration-de-loutil-de-test-pour-sexecuter-automatiquement-en-cas-de-modification-du-code"></a>
 
 
 # 6 - Déploiement et mise à l'échelle
+<a id="6---deploiement-et-mise-a-lechelle"></a>
 
 ## 6.1 - Préparation du déploiement dans le cloud
+<a id="61---preparation-du-deploiement-dans-le-cloud"></a>
 
 ## 6.2 - Déploiement des microservices sur le cloud en utilisant des outils tels que Terraform ou CloudFormation
+<a id="62---deploiement-des-microservices-sur-le-cloud-en-utilisant-des-outils-tels-que-terraform-ou-cloudformation"></a>
 
 ## 6.3 - Mise à l'échelle des microservices en fonction des besoins en utilisant les fonctionnalités de Kubernetes
+<a id="63---mise-a-lechelle-des-microservices-en-fonction-des-besoins-en-utilisant-les-fonctionnalites-de-kubernetes"></a>
 
 
 # 7 - Conclusion
+<a id="7---conclusion"></a>
 
 ## 7.1 - Résumé de la mise en place de l'application cloud native basée sur des microservices
+<a id="71---resume-de-la-mise-en-place-de-lapplication-cloud-native-basee-sur-des-microservices"></a>
 
 ## 7.2 - Discussion sur les avantages et les limites de cette approche
+<a id="72---discussion-sur-les-avantages-et-les-limites-de-cette-approche"></a>
 
 ## 7.3 - Discussion sur les prochaines étapes pour améliorer l'application
+<a id="73---discussion-sur-les-prochaines-etapes-pour-ameliorer-lapplication"></a>
 
 
 
