@@ -1,3 +1,5 @@
+**front-end**: Ce microservice est responsable de l'interface utilisateur de l'application. Il peut être implémenté avec des technologies telles que React.js, Angular.js ou Vue.js.
+
 **api_gateway**: Ce microservice joue le rôle de passerelle pour les requêtes entrantes. Il s'assure que les requêtes sont redirigées vers les bons microservices pour traitement et renvoie les réponses appropriées aux utilisateurs. C'est l'interface utilisateur de l'application.
 
 **data_storage**: Ce microservice est responsable du stockage des données collectées par le microservice tweet_collector. Il peut être implémenté avec un système de gestion de bases de données tels que MongoDB ou Cassandra pour stocker les tweets en temps réel.
