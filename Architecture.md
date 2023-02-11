@@ -95,5 +95,5 @@ root
 |
 |-- .gitignore (Fichier de configuration Git)
 |-- README.md (Fichier README)
-|-- Architecture.md (Fichier d'architecture)
+|-- Architecture.md (Fichier d'architecture
 
